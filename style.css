@@ -1,0 +1,204 @@
+@import url(https://db.onlinewebfonts.com/c/021f3eb1da35b2a042907dc870c00b9c?family=Twentieth+Century+W01+XtraBdCn);
+@font-face {
+  font-family: "Twentieth Century W01 XtraBdCn";
+  src: url("https://db.onlinewebfonts.com/t/021f3eb1da35b2a042907dc870c00b9c.eot");
+  src: url("https://db.onlinewebfonts.com/t/021f3eb1da35b2a042907dc870c00b9c.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/021f3eb1da35b2a042907dc870c00b9c.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/021f3eb1da35b2a042907dc870c00b9c.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/021f3eb1da35b2a042907dc870c00b9c.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/021f3eb1da35b2a042907dc870c00b9c.svg#Twentieth Century W01 XtraBdCn")
+      format("svg");
+}
+@import url(https://db.onlinewebfonts.com/c/6138beb83221f6eb46ed08543a304d1d?family=Twentieth+Century);
+@font-face {
+  font-family: "Twentieth Century";
+  src: url("https://db.onlinewebfonts.com/t/6138beb83221f6eb46ed08543a304d1d.eot");
+  src: url("https://db.onlinewebfonts.com/t/6138beb83221f6eb46ed08543a304d1d.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6138beb83221f6eb46ed08543a304d1d.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6138beb83221f6eb46ed08543a304d1d.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/6138beb83221f6eb46ed08543a304d1d.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6138beb83221f6eb46ed08543a304d1d.svg#Twentieth Century")
+      format("svg");
+}
+body {
+  background-color: #11b0c8;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+header {
+  margin-top: 20px;
+}
+.header__outer_box {
+  width: 100%;
+  height: 200px;
+}
+.header__outer_box__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__text,
+.header__text__register {
+  font-size: 30px;
+  font-family: "Twentieth Century";
+}
+.header__text__register {
+  text-decoration: none;
+  color: black;
+}
+.header__text__register:hover,
+.header__text:hover {
+  color: #fff;
+  transition: 0.2s;
+}
+.header__text_main {
+  font-size: 50px;
+  font-family: "Twentieth Century W01 XtraBdCn";
+}
+/* 2 section */
+.second_block {
+  display: flex;
+  justify-content: center;
+}
+.second_block__outer_box {
+  width: 100%;
+}
+.second_block__outer_box__inner_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.second_block__title {
+  margin: 10px 0 0 0;
+  font-size: 40px;
+  font-family: "Twentieth Century W01 XtraBdCn";
+}
+
+.search_text_by_user {
+  width: 200px;
+  height: 30px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#filter {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 20rem;
+  padding: 1rem 4rem 1rem 1rem;
+  /* background: var(--arrow-icon) no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em); */
+  color: black;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#filter::-ms-expand {
+    display: none;
+  }
+
+#filter:focus {
+    outline: none;
+  }
+
+  option {
+    color: inherit;
+    background-color: var(--option-bg);
+  }
+
+
+.second_block__outer_box__inner_box__for_filter_and_search {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+/* 3 section */
+.comics {
+  margin-top: 50px;
+}
+.comics__outer_box {
+  width: 100%;
+  height: 90vw;
+}
+.comics__inner_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+/* js code part */
+.rick_and_morty_box {
+  width: 300px;
+  height: 520px;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.rick_and_morty_box:hover {
+  -webkit-box-shadow: 8px 12px 43px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 8px 12px 43px 0px rgba(0, 0, 0, 0.71);
+  box-shadow: 8px 12px 43px 0px rgba(0, 0, 0, 0.71);
+}
+.person_title {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Twentieth Century W01 XtraBdCn";
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+.person_image {
+  border-radius: 20px;
+}
+.status_title,
+.origin_title,
+.price_title {
+  font-weight: 700;
+  font-size: 27px;
+  font-family: "Twentieth Century";
+}
+
+.box_for_info {
+  box-sizing: border-box;
+  padding: 10px;
+  padding-left: 15px;
+  margin-top: 0px;
+}
+
+/* button */
+.for_btn {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50px;
+  height: 50px;
+}
+.for_btn__show_more_boxes {
+  width: 220px;
+  height: 35px;
+  background-color: #064d58;
+  color: #fff;
+  border: none;
+  outline: none;
+}
